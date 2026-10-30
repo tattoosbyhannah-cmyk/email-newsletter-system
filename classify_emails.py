@@ -11,9 +11,9 @@ Outputs (in data/processed/):
 Safe to stop (Ctrl+C) and rerun: emails already labeled are skipped.
 
 Usage:
-  python src/classify_emails.py --model qwen2.5:7b --limit 25     # test run
-  python src/classify_emails.py --model qwen2.5:7b                # full run
-  python src/classify_emails.py --model qwen2.5:7b --prefilter    # faster: only emails with tattoo-ish words
+  python classify_emails.py --model qwen2.5:7b --limit 25     # test run
+  python classify_emails.py --model qwen2.5:7b                # full run
+  python classify_emails.py --model qwen2.5:7b --prefilter    # faster: only emails with tattoo-ish words
 """
 import argparse
 import csv

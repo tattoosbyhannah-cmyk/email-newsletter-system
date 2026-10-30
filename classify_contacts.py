@@ -11,7 +11,7 @@ emails to the model, and writes:
 Safe to stop (Ctrl+C) and rerun: contacts already classified are skipped.
 
 Usage:
-  python src/classify_contacts.py --model qwen2.5:7b --limit 20 \
+  python classify_contacts.py --model qwen2.5:7b --limit 20 \
       --business "tattoo studio and tattoo-education courses"
 
 Endpoints (--base-url):

@@ -9,7 +9,7 @@ Outputs (in data/processed/ by default):
                     how often you emailed them, first/last seen, sample subjects
 
 Usage:
-  python src/mbox_extract.py "data/raw/All mail Including Spam and Trash.mbox" --me you@gmail.com
+  python mbox_extract.py "data/raw/All mail Including Spam and Trash.mbox" --me you@gmail.com
   (repeat --me for any other addresses/aliases you send from)
 """
 import argparse
